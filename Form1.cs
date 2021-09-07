@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
             int b = int.Parse(label1.Text);
             int c = int.Parse(label3.Text);
             double d, x, x1, x2;
-            d = (b * b) - (4 * a * c);
+            d = (b * b) - (4 * a * c) ;
             if (d < 0)   {
                 label5.Text = "pt vo nghiem";
             }
